@@ -15,12 +15,17 @@ body {
 
 /* HERO */
 .hero {
-  padding: 100px 20px 60px;
+  padding: 80px 20px 40px;
   text-align: center;
 }
 
+.logo {
+  width: 120px;
+  margin-bottom: 20px;
+}
+
 .hero h1 {
-  font-size: 56px;
+  font-size: 50px;
   margin-bottom: 10px;
 }
 
@@ -69,20 +74,14 @@ body {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
-/* SECTION */
+/* PRICING */
 .section {
   text-align: center;
   padding: 60px 20px;
 }
 
-.section h2 {
-  font-size: 36px;
-}
-
-/* PRICING */
 .pricing {
   display: flex;
   justify-content: center;
@@ -122,11 +121,15 @@ footer {
 
 <!-- HERO -->
 <div class="hero">
-  <h1>Maximize Every <span>Mile</span></h1>
-  <p>NetDrive helps drivers track trips, calculate real earnings, and keep more money in their pocket.</p>
 
-  <button class="cta" onclick="window.location.href='YOUR_GOOGLE_FORM_LINK'">
-    Join the Waitlist 🚀
+  <!-- 🔥 ADD YOUR LOGO HERE -->
+  <img src="logo.png" alt="NetDrive Logo" class="logo">
+
+  <h1>Maximize Every <span>Mile</span></h1>
+  <p>Track your trips, understand your earnings, and keep more of what you make.</p>
+
+  <button class="cta" onclick="window.location.href='https://net-drive-ec9a141c.base44.app/Dashboard'">
+    Go to App 🚀
   </button>
 </div>
 
@@ -134,26 +137,18 @@ footer {
 <div class="features">
   <div class="card">
     <h3>📍 Automatic Trip Tracking</h3>
-    <p>No more guessing mileage. NetDrive logs every trip for you.</p>
+    <p>No more guessing mileage. Every trip logged.</p>
   </div>
 
   <div class="card">
     <h3>💰 Real Profit Insights</h3>
-    <p>See what you actually earn after gas, time, and expenses.</p>
+    <p>See what you actually earn after expenses.</p>
   </div>
 
   <div class="card">
     <h3>📊 Tax-Ready Reports</h3>
-    <p>Instant reports that make tax season painless.</p>
+    <p>Instant reports ready for tax season.</p>
   </div>
-</div>
-
-<!-- WHY -->
-<div class="section">
-  <h2>Built for Drivers Who Hustle</h2>
-  <p style="color:#94a3b8; max-width:600px; margin:auto;">
-    Whether you're delivering, ridesharing, or running your own gigs, NetDrive helps you stay organized and maximize every dollar you earn.
-  </p>
 </div>
 
 <!-- PRICING -->
@@ -164,15 +159,20 @@ footer {
     <div class="plan">
       <h3>Basic</h3>
       <div class="price">$2.99/mo</div>
-      <p>Track limited trips</p>
+      <p>Limited trips per month</p>
     </div>
 
     <div class="plan featured">
       <h3>Pro 🚀</h3>
       <div class="price">$5.99/mo</div>
-      <p>Unlimited tracking + full insights</p>
+      <p>Unlimited trips + full features</p>
     </div>
   </div>
+
+  <!-- SECOND CTA -->
+  <button class="cta" onclick="window.location.href='https://net-drive-ec9a141c.base44.app/Dashboard'">
+    Start Using NetDrive
+  </button>
 </div>
 
 <footer>
